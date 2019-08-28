@@ -1,5 +1,5 @@
 {
-	"name": "react-router-relay",
+	"name": "@secoya/react-router-relay",
 	"version": "0.14.0",
 	"description": "Relay integration for React Router",
 	"files": [
@@ -22,7 +22,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/relay-tools/react-router-relay.git"
+		"url": "git+https://github.com/secoya/react-router-relay.git"
 	},
 	"keywords": [
 		"relay",
@@ -31,9 +31,9 @@
 	],
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/relay-tools/react-router-relay/issues"
+		"url": "https://github.com/secoya/react-router-relay/issues"
 	},
-	"homepage": "https://github.com/relay-tools/react-router-relay#readme",
+	"homepage": "https://github.com/secoya/react-router-relay#readme",
 	"dependencies": {
 		"babel-runtime": "^6.23.0",
 		"invariant": "^2.2.2",
