@@ -1,4 +1,4 @@
-import getRouteParams from 'react-router/lib/getRouteParams';
+import getRouteParams from '@secoya/react-router/lib/getRouteParams';
 
 export default function mergeRouteParams(prevParams, route, routerProps) {
   const params = {

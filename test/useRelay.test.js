@@ -2,7 +2,7 @@ import React from 'react';
 import ReactTestUtils from 'react-dom/test-utils';
 import Relay from 'react-relay/classic';
 import { applyRouterMiddleware, createMemoryHistory, Route, Router }
-  from 'react-router';
+  from '@secoya/react-router';
 import RelayLocalSchema from 'relay-local-schema';
 
 import useRelay from '../src';

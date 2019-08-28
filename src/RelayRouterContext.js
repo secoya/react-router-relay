@@ -26,7 +26,8 @@ class RelayRouterContext extends React.Component {
     };
   }
 
-  componentWillReceiveProps(nextProps) {
+  // eslint-disable-next-line camelcase
+  UNSAFE_componentWillReceiveProps(nextProps) {
     if (nextProps.location === this.props.location) {
       return;
     }
@@ -36,7 +37,9 @@ class RelayRouterContext extends React.Component {
 
   renderCallback = (renderArgs) => {
     this.queryAggregator.setRenderArgs(renderArgs);
-    return this.props.children;
+    // Clone element here in order to not fool react into thinking
+    // that everything here is fine and dandy and does not need reconciling
+    return React.cloneElement(this.props.children, {});
   };
 
   render() {
